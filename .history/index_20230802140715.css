@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 214px 0 231px 121px;
+}
+.container h1 {
+  color: #000;
+  font-family: Roboto Slab;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 101.385%;
+}
+.container ul {
+  margin-top: 62px;
+  width: 672px;
+}
+.container ul li {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+/* tablet style */
+@media screen and (max) {
+  
+}
+
+
+
+/* mobile style */

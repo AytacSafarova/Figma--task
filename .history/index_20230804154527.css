@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  /* padding: 214px 0 231px 121px; */
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: yellow;
+}
+.container h1 {
+  color: #000;
+  font-family: Roboto Slab;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 101.385%;
+}
+.container ul {
+  margin-top: 62px;
+  width: 672px;
+}
+.container ul li {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+/* tablet style */
+@media screen and (max-width:1024px) {
+  .container {
+    padding: 127px 0 160px 65px;
+  }
+  .container h1 {
+    font-size: 32px;
+  }
+  .container ul {
+    margin-top: 20px;
+    width: 398px;
+  }
+  .container ul li {
+    font-size: 14px;
+  }
+}
+
+/* mobile style */
+@media screen and (max-width: 768px) {
+
+}
+
+
+span{
+  background-color: violet;
+  /* display: inline; */
+}
+.child{
+  background-color: teal;
+  width: 300px;
+  height: 200px;
+  margin-right: 20px;
+
+  color: white;
+  font-size: 40px;
+}
+
+form{
+width: 40%;
+padding: 40px;
+border-radius: 5px;
+border:  2px solid black;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+
+/* CSS */
+.button-1 {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}

@@ -1,0 +1,8 @@
+let array =['alma', 'armud', 'heyva']
+for (let index = 0; index < array.length; index++) {
+  console.log(array[index]);
+}
+let index = 0;
+while(index < array.length){
+    console.log(array[index]);
+}
